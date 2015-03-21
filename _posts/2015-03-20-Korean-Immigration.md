@@ -8,3 +8,4 @@ image: "post-bg.jpg"
 # Visiting Korean Immigration Office
 
 ### Some text goes here
+Проверка поддержки русского языка

@@ -44,9 +44,17 @@
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <div class="site-heading">
                     <h2>{{ page.title }}</h2>
-                    {% if page.description %}
+                    {% if page.layout == "post" %}
                         <hr class="small">
-                        <span class="subheading">{{ page.description }}</span>
+                        {% if page.description %}
+                            <h2 class="subheading">{{ page.description }}</h2>
+                        {% endif %}
+                        <span class="meta">Posted by Andrey Zubkov on {{ page.date | date_to_string }}</span>
+                    {% else %}
+                        {% if page.description %}
+                            <hr class="small">
+                            <span class="subheading">{{ page.description }}</span>
+                        {% endif %}
                     {% endif %}
                 </div>
             </div>
