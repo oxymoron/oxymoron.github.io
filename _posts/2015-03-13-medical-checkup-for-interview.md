@@ -1,5 +1,6 @@
 ---
-title: Медосмотр перед интервью
+title: Медосмотр
+description: Медосмотр перед интервью
 layout: post
 image: about-bg.jpg
 ---
