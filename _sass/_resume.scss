@@ -4,4 +4,42 @@
   .resume-name {
     font-weight: bold;
   }
+
+  .resume-company {
+
+    padding-top: 1em;
+
+    .resume-company-address {
+      font-weight: bold;
+    }
+
+    .resume-company-name {
+      font-size: 24px;
+      font-weight: bold;
+      float: left;
+
+    }
+
+    .resume-period {
+      float: right;
+      font-style: italic;
+    }
+
+    .resume-project {
+
+      .resume-project-name {
+        padding-top: 1em;
+        font-weight: bold;
+      }
+
+      .resume-tech {
+        font-size: 16px;
+        padding-bottom: 0.5em;
+        span {
+          font-style: italic;
+        }
+      }
+    }
+
+  }
 }
