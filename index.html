@@ -21,7 +21,7 @@ order: 1
                             {{ post.description }}
                         </h3>
                     </a>
-                    <p class="post-meta">Posted by <a href="#">Andrey Zubkov</a> on {{ post.date | date_to_string}}</p>
+                    <p class="post-meta">{{ post.date | date_to_string}}</p>
                 </div>
                 <hr>
             {% endfor %}

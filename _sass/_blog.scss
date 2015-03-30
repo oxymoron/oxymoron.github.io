@@ -1,4 +1,21 @@
 
+$selected-menu-color: #81d425;
+$callout-color: #aa6708;
+
 .navbar-custom .nav li a.selected {
-  color: #81d425;
+  color: $selected-menu-color;
+}
+
+.callout {
+
+  h4{
+    color: $callout-color;
+  }
+
+  padding: 20px;
+  margin: 20px 0;
+  border: 1px solid #eee;
+  border-left-color: $callout-color;
+  border-left-width: 5px;
+  border-radius: 3px;
 }
