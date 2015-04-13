@@ -30,7 +30,7 @@ description: Собеседование в консульстве США в Се
 <img src="http://i.imgur.com/74ldZOJl.jpg" class="img-responsive img-thumbnail">
 
 До посольства пешком меньше десяти минут, так что около восьми мы были у входа,
-нашли дверь с указателем Immigration Visa, в окно для документов я просунул наши три загранпаспорта.
+нашли дверь с указателем Immigrant Visa, в окно для документов я просунул наши три загранпаспорта.
 В списке у охранника наши фамилии уже были. Зашли в правую дверь.
 
 <img src="http://i.imgur.com/XQYjQzel.png" class="img-responsive img-thumbnail">
