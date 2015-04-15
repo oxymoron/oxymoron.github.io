@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Your visa has been printed.
+title: Your visa has been printed
 description: Сегодня статус виз на CEAC Tracker поменялся на Issued
 ---
 
@@ -16,4 +16,11 @@ description: Сегодня статус виз на CEAC Tracker поменял
 [USCIS](https://cgifederal.secure.force.com/applicanthome)
 
 <img src="http://i.imgur.com/iZWxatI.png" class="img-responsive img-thumbnail">
+
+
+Ну, и до кучи вот это сегодня Саша нарисовал. Какая палитра, сколько души вложил
+художник в свое творение! Сколько образов и скрытых смыслов скрывают смелые мазки,
+сделанные детскими пальчиками :)
+
+<img src="http://i.imgur.com/E8ZemyJl.jpg" class="img-responsive img-thumbnail">
 
