@@ -15,6 +15,9 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li>
+                    <a href="{{ site.url }}/2015/04/19/sale.html" class="sale">Распродажа</a>
+                </li>
+                <li>
                     <a href="{{ site.url }}/index.html" class="{% if page.url == '/index.html' %}selected{% endif %}">Blog</a>
                 </li>
                 {% assign pages_list = {{site.pages | sort: 'order' }} %}
