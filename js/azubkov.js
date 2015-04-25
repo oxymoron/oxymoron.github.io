@@ -44,7 +44,7 @@ azBlog.controller('SaleCtrl', function($scope){
     },{
         name: 'Детский велосипед',
         img: 'http://i.imgur.com/SZwaClOl.jpg',
-        price: 20000
+        price: 10000
     },{
         name: 'Тумба',
         img: 'http://i.imgur.com/fr6F03wl.jpg',
