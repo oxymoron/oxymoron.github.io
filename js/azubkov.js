@@ -35,6 +35,7 @@ azBlog.controller('SaleCtrl', function($scope){
         price: 50000
     },{
         name: 'Газовая плита',
+        info: 'Дополнительно: формы для хлеба и противень.',
         img: 'http://i.imgur.com/lHZaFvnl.jpg',
         price: 100000
     },{
@@ -47,6 +48,7 @@ azBlog.controller('SaleCtrl', function($scope){
         price: 40000
     },{
         name: 'Холодильник для пикника',
+        sold: true,
         img: 'http://i.imgur.com/y6Ofytzl.jpg',
         price: 20000
     },{
@@ -61,14 +63,17 @@ azBlog.controller('SaleCtrl', function($scope){
         price: 10000
     },{
         name: 'Тумба',
+        origPrice: {price: 100000},
         img: 'http://i.imgur.com/fr6F03wl.jpg',
         price: 30000
     },{
         name: 'Детский комод',
+        sold: true,
         img: 'http://i.imgur.com/vPSmw4ql.jpg',
         price: 30000
     },{
         name: 'Светильник',
+        sold: true,
         img: 'http://i.imgur.com/WclIAZrl.jpg',
         price: 5000
     },{
@@ -77,6 +82,7 @@ azBlog.controller('SaleCtrl', function($scope){
         price: 5000
     },{
         name: 'Детская горка',
+        info: 'На горке еще есть баскетбольное кольцо и в придачу мешок шариков.',
         img: 'http://i.imgur.com/KpE1At6l.jpg',
         price: 100000
     },{
@@ -103,10 +109,12 @@ azBlog.controller('SaleCtrl', function($scope){
         price: 5000
     },{
         name: 'Барный стул',
+        sold: true,
         img: 'http://i.imgur.com/bbmuvFTl.jpg',
         price: 0
     },{
         name: 'Елка новогодняя со светопроводом',
+        sold: true,
         img: 'http://i.imgur.com/LTkPTJfl.jpg',
         price: 0
     },{
@@ -115,6 +123,7 @@ azBlog.controller('SaleCtrl', function($scope){
         price: 0
     },{
         name: 'Елка новогодняя',
+        info: 'Игрушки прилагаются (шары и мишура).',
         img: 'http://i.imgur.com/1mO2oWrl.jpg',
         price: 0
     },{
@@ -166,8 +175,9 @@ azBlog.controller('SaleCtrl', function($scope){
         price: 5000
     },{
         name: 'Гитара',
+        info: 'Гитара аккустическая со звукоснимателем и приборчиком для настройки',
         img: 'http://i.imgur.com/DWLq4U2l.jpg',
-        price: 50000
+        price: 100000
     },{
         name: 'Насос',
         img: 'http://i.imgur.com/dShsI0Dl.jpg',
@@ -202,6 +212,7 @@ azBlog.controller('SaleCtrl', function($scope){
         price: 10000
     },{
         name: 'Два пляжных трона',
+        sold: true,
         img: 'http://i.imgur.com/Kn577Wjl.jpg',
         price: 10000
     },{
@@ -224,6 +235,7 @@ azBlog.controller('SaleCtrl', function($scope){
         price: 5000
     },{
         name: 'Ноутбук детский',
+        sold: true,
         img: 'http://i.imgur.com/3Frgjzol.jpg',
         price: 10000
     },{
@@ -253,5 +265,88 @@ azBlog.controller('SaleCtrl', function($scope){
         sold: true,
         img: 'http://i.imgur.com/01phdCvl.jpg',
         price: 0
+
+    },{
+        name: 'Дрель BOSCH',
+        img: 'http://i.imgur.com/h2pdNPwl.jpg',
+        price: 40000
+    },{
+        name: 'Гладильная доска',
+        img: 'http://i.imgur.com/MaqZDuxl.jpg',
+        origPrice: {price: 40000},
+        price: 20000
+    },{
+        name: 'Шуруповерт BOSCH',
+        img: 'http://i.imgur.com/IHp58jTl.jpg',
+        origPrice: {price: 90000},
+        price: 40000
+    },{
+        name: 'Дартс',
+        info: 'Оригинальный дартс с острова Гавайи',
+        img: 'http://i.imgur.com/QDYUpTEl.jpg',
+        origPrice: {price: 300000},
+        price: 100000
+    },{
+        name: 'Писуар детский',
+        img: 'http://i.imgur.com/XC06WUzl.jpg',
+        price: 0
+    },{
+        name: 'Стол корейский походный',
+        img: 'http://i.imgur.com/T19ByJRl.jpg',
+        price: 0
+    },{
+        name: 'Стол складной походный',
+        img: 'http://i.imgur.com/NLBItfjl.jpg',
+        price: 20000
+    },{
+        name: 'Массажер для ног',
+        img: 'http://i.imgur.com/HPqObGOl.jpg',
+        origPrice: {price: 100000},
+        price: 30000
+    },{
+        name: 'Принтер лазерный',
+        info: 'Проблема: печатает по 1 странице',
+        img: 'http://i.imgur.com/u2azRT9l.jpg',
+        price: 10000
+    },{
+        name: 'Подстилка',
+        sold: true,
+        img: 'http://i.imgur.com/3msdx51l.jpg',
+        price: 0
+    },{
+        name: 'Штатив',
+        img: 'http://i.imgur.com/HrzcnMYl.jpg',
+        price: 10000
+    },{
+        name: 'Подстилка',
+        sold: true,
+        img: 'http://i.imgur.com/WxLqDBZl.jpg',
+        price: 0
+    },{
+        name: 'Развивающие деревянные наборы',
+        info: 'Без книжек',
+        img: 'http://i.imgur.com/xdjV8SRl.jpg',
+        price: 30000
+    },{
+        name: 'Принтер лазерный ML-1660K',
+        hide: true,
+        img: 'http://i.imgur.com/Byrpms9l.jpg',
+        price: 30000
+    },{
+        name: 'Струйный принтер и сканер HP Deskjet F2280',
+        info: 'Как принтер его лучше не использовать, но сканер вполне нормальный.',
+        hide: true,
+        img: 'http://i.imgur.com/r8FpPvEl.jpg',
+        price: 10000
     }];
+
+    var sum = 0;
+    var availableNum = 0;
+    for (var i=0; i < $scope.items.length; i++){
+        var item = $scope.items[i];
+        sum += item.price;
+        if (!item.sold) availableNum++;
+    }
+    $scope.availableNum = availableNum;
+    $scope.totalPrice = sum;
 });
