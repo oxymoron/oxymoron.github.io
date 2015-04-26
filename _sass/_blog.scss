@@ -23,3 +23,15 @@ $callout-color: #aa6708;
 .navbar-custom .nav li a.sale {
   font-size: 18px !important;
 }
+
+.available{
+  .sold {
+    display: none;
+  }
+}
+
+.all{
+  .sold {
+    opacity: 0.3;
+  }
+}

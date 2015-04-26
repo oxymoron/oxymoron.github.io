@@ -6,12 +6,25 @@
 var azBlog = angular.module('azBlog', []);
 
 azBlog.controller('SaleCtrl', function($scope){
+
+    $scope.order = 'price';
+    $scope.filter = 'available';
+
+    $scope.setOrder = function (order) {
+        $scope.order = order;
+    };
+
+    $scope.setFilter = function (filter) {
+        $scope.filter = filter;
+    };
+
     $scope.items = [{
         name: 'Увлажнитель воздуха',
         img: 'http://i.imgur.com/tTDDd4Cl.jpg',
         price: 10000
     },{
         name: 'Отпариватель',
+        sold: true,
         info: 'Tefal IS5200 KO',
         origPrice: {
             price: 119000,
@@ -38,11 +51,12 @@ azBlog.controller('SaleCtrl', function($scope){
         price: 20000
     },{
         name: 'Коляска Bebecar',
-        sold: true,
+        hide: true,
         img: 'http://i.imgur.com/UxBwqp7l.jpg',
         price: 350000
     },{
         name: 'Детский велосипед',
+        sold: true,
         img: 'http://i.imgur.com/SZwaClOl.jpg',
         price: 10000
     },{
@@ -75,6 +89,7 @@ azBlog.controller('SaleCtrl', function($scope){
         price: 10000
     },{
         name: 'Стул складной',
+        sold: true,
         img: 'http://i.imgur.com/XLoxTDHl.jpg',
         price: 5000
     },{
@@ -104,6 +119,7 @@ azBlog.controller('SaleCtrl', function($scope){
         price: 0
     },{
         name: 'Тренажер для пресса',
+        sold: true,
         img: 'http://i.imgur.com/ZxpORiAl.jpg',
         price: 0
     },{
@@ -158,10 +174,12 @@ azBlog.controller('SaleCtrl', function($scope){
         price: 0
     },{
         name: 'Баскетбольный мяч',
+        sold: true,
         img: 'http://i.imgur.com/uPaa4Xbl.jpg',
         price: 0
     },{
         name: 'Утя для игрушек',
+        sold: true,
         img: 'http://i.imgur.com/7pqSrZTl.jpg',
         price: 0
     },{
@@ -175,6 +193,7 @@ azBlog.controller('SaleCtrl', function($scope){
         price: 0
     },{
         name: 'Подстилка',
+        sold: true,
         img: 'http://i.imgur.com/zBVIJ8Ol.jpg',
         price: 0
     },{
@@ -187,6 +206,7 @@ azBlog.controller('SaleCtrl', function($scope){
         price: 10000
     },{
         name: 'Кухонный комбайн',
+        sold: true,
         img: 'http://i.imgur.com/Jrrc7Ztl.jpg',
         price: 50000
     },{
@@ -195,6 +215,7 @@ azBlog.controller('SaleCtrl', function($scope){
         price: 10000
     },{
         name: 'Металлофон',
+        sold: true,
         img: 'http://i.imgur.com/Vy9eWohl.jpg',
         price: 0
     },{
@@ -204,9 +225,10 @@ azBlog.controller('SaleCtrl', function($scope){
     },{
         name: 'Ноутбук детский',
         img: 'http://i.imgur.com/3Frgjzol.jpg',
-        price: 0
+        price: 10000
     },{
         name: 'Игрушка собака',
+        sold: true,
         img: 'http://i.imgur.com/Q4OruB1l.jpg',
         price: 0
     },{
@@ -220,6 +242,16 @@ azBlog.controller('SaleCtrl', function($scope){
     },{
         name: 'Чумачечая лошадь',
         img: 'http://i.imgur.com/H1fqbyEl.jpg',
+        price: 0
+    },{
+        name: 'Детский компьютер',
+        sold: true,
+        img: 'http://i.imgur.com/HRSN4Wcl.jpg',
+        price: 10000
+    },{
+        name: 'Лего конструктор',
+        sold: true,
+        img: 'http://i.imgur.com/01phdCvl.jpg',
         price: 0
     }];
 });
