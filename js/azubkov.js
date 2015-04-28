@@ -313,8 +313,7 @@ azBlog.controller('SaleCtrl', function($scope){
         price: 30000
     },{
         name: 'Принтер лазерный',
-        info: 'Бронь',
-        info: 'Проблема: печатает по 1 странице',
+        info: 'Проблема: печатает по 1 странице. Бронь',
         img: 'http://i.imgur.com/u2azRT9l.jpg',
         price: 10000
     },{
