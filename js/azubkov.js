@@ -348,12 +348,12 @@ azBlog.controller('SaleCtrl', function($scope){
     },{
         name: 'Пальто мужское',
         info: 'Размер 110. Рост 180-185. 91% - шерсть, 9% - кашемир',
-        img: 'http://i.imgur.com/YNoYZ8z.jpg',
+        img: 'http://i.imgur.com/YNoYZ8zl.jpg',
         price: 100000
     },{
         name: 'Пазлы "Транспорт" на 5, 6, 7 деталек',
         info: '10 - полных, 2 - без одной детали',
-        img: 'http://i.imgur.com/v5phYBk.jpg',
+        img: 'http://i.imgur.com/v5phYBkl.jpg',
         price: 3000
     },{
         name: 'Струйный принтер и сканер HP Deskjet F2280',
