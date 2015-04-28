@@ -353,7 +353,7 @@ azBlog.controller('SaleCtrl', function($scope){
     },{
         name: 'Пазлы "Транспорт" на 5, 6, 7 деталек',
         info: '10 - полных, 2 - без одной детали',
-        img: 'http://i.imgur.com/v5phYBk.jpg',
+        img: 'http://imgur.com/v5phYBk',
         price: 3000
     },{
         name: 'Струйный принтер и сканер HP Deskjet F2280',
