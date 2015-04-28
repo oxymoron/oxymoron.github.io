@@ -342,6 +342,10 @@ azBlog.controller('SaleCtrl', function($scope){
         img: 'http://i.imgur.com/Byrpms9l.jpg',
         price: 30000
     },{
+        name: 'Детское и обувь на мальчика от 0 до 2,5 лет',
+        info: 'По запросу. Цена договорная'
+
+    },{
         name: 'Струйный принтер и сканер HP Deskjet F2280',
         info: 'Как принтер его лучше не использовать, но сканер вполне нормальный.',
         hide: true,
