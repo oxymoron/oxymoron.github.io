@@ -35,7 +35,7 @@ azBlog.controller('SaleCtrl', function($scope){
         price: 50000
     },{
         name: 'Газовая плита',
-        info: 'Дополнительно: формы для хлеба и противень.',
+        info: 'Дополнительно: формы для хлеба и противень. Можем помочь с доставкой по Сувону и окрестностям',
         img: 'http://i.imgur.com/lHZaFvnl.jpg',
         price: 100000
     },{
@@ -87,10 +87,12 @@ azBlog.controller('SaleCtrl', function($scope){
         price: 100000
     },{
         name: 'Подставка',
+        info: 'Бронь',
         img: 'http://i.imgur.com/WKTnikbl.jpg',
         price: 0
     },{
         name: 'Горшок детский',
+        info: 'Бронь',
         img: 'http://i.imgur.com/7JKZRgzl.jpg',
         price: 10000
     },{
@@ -119,6 +121,7 @@ azBlog.controller('SaleCtrl', function($scope){
         price: 0
     },{
         name: 'Санки',
+        sold: true,
         img: 'http://i.imgur.com/2ayhdtFl.jpg',
         price: 0
     },{
@@ -142,6 +145,7 @@ azBlog.controller('SaleCtrl', function($scope){
         price: 20000
     },{
         name: 'Кошачья вилла',
+        info: 'Бронь',
         img: 'http://i.imgur.com/9nTE3yEl.jpg',
         price: 40000
     },{
@@ -180,6 +184,7 @@ azBlog.controller('SaleCtrl', function($scope){
         price: 100000
     },{
         name: 'Насос',
+        info: 'Бронь',
         img: 'http://i.imgur.com/dShsI0Dl.jpg',
         price: 0
     },{
@@ -199,6 +204,7 @@ azBlog.controller('SaleCtrl', function($scope){
         price: 10000
     },{
         name: 'Газовая плита (походная)',
+        sold: true,
         img: 'http://i.imgur.com/dPoFyFUl.jpg',
         price: 0
     },{
@@ -208,6 +214,7 @@ azBlog.controller('SaleCtrl', function($scope){
         price: 0
     },{
         name: 'Походные стульчики',
+        info: 'Бронь',
         img: 'http://i.imgur.com/OJYANibl.jpg',
         price: 10000
     },{
@@ -234,11 +241,6 @@ azBlog.controller('SaleCtrl', function($scope){
         img: 'http://i.imgur.com/wVeU3S7l.jpg',
         price: 5000
     },{
-        name: 'Ноутбук детский',
-        sold: true,
-        img: 'http://i.imgur.com/3Frgjzol.jpg',
-        price: 10000
-    },{
         name: 'Игрушка собака',
         sold: true,
         img: 'http://i.imgur.com/Q4OruB1l.jpg',
@@ -249,10 +251,12 @@ azBlog.controller('SaleCtrl', function($scope){
         price: 0
     },{
         name: 'Пазлы',
+        sold: true,
         img: 'http://i.imgur.com/X5du6STl.jpg',
         price: 0
     },{
         name: 'Чумачечая лошадь',
+        info: 'Бронь',
         img: 'http://i.imgur.com/H1fqbyEl.jpg',
         price: 0
     },{
@@ -268,6 +272,7 @@ azBlog.controller('SaleCtrl', function($scope){
 
     },{
         name: 'Дрель BOSCH',
+        info: 'Бронь',
         img: 'http://i.imgur.com/h2pdNPwl.jpg',
         price: 40000
     },{
@@ -277,6 +282,7 @@ azBlog.controller('SaleCtrl', function($scope){
         price: 20000
     },{
         name: 'Шуруповерт BOSCH',
+        info: 'Бронь',
         img: 'http://i.imgur.com/IHp58jTl.jpg',
         origPrice: {price: 90000},
         price: 40000
@@ -288,6 +294,7 @@ azBlog.controller('SaleCtrl', function($scope){
         price: 100000
     },{
         name: 'Писуар детский',
+        info: 'Бронь',
         img: 'http://i.imgur.com/XC06WUzl.jpg',
         price: 0
     },{
@@ -296,6 +303,7 @@ azBlog.controller('SaleCtrl', function($scope){
         price: 0
     },{
         name: 'Стол складной походный',
+        sold: true,
         img: 'http://i.imgur.com/NLBItfjl.jpg',
         price: 20000
     },{
@@ -305,6 +313,7 @@ azBlog.controller('SaleCtrl', function($scope){
         price: 30000
     },{
         name: 'Принтер лазерный',
+        info: 'Бронь',
         info: 'Проблема: печатает по 1 странице',
         img: 'http://i.imgur.com/u2azRT9l.jpg',
         price: 10000
@@ -315,6 +324,7 @@ azBlog.controller('SaleCtrl', function($scope){
         price: 0
     },{
         name: 'Штатив',
+        info: 'Бронь',
         img: 'http://i.imgur.com/HrzcnMYl.jpg',
         price: 10000
     },{
