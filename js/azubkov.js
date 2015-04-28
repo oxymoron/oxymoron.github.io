@@ -332,10 +332,10 @@ azBlog.controller('SaleCtrl', function($scope){
         img: 'http://i.imgur.com/WxLqDBZl.jpg',
         price: 0
     },{
-        name: 'Развивающие деревянные наборы',
+        name: 'Деревянный конструктор',
         info: 'Без книжек',
         img: 'http://i.imgur.com/xdjV8SRl.jpg',
-        price: 30000
+        price: 20000
     },{
         name: 'Принтер лазерный ML-1660K',
         hide: true,
