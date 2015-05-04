@@ -78,6 +78,7 @@ azBlog.controller('SaleCtrl', function($scope){
         price: 5000
     },{
         name: 'Часы вокзальные',
+        hide: true,
         img: 'http://i.imgur.com/GqI7YSIl.jpg',
         price: 5000
     },{
@@ -145,7 +146,7 @@ azBlog.controller('SaleCtrl', function($scope){
         price: 20000
     },{
         name: 'Кошачья вилла',
-        info: 'Бронь',
+        sold: true,
         img: 'http://i.imgur.com/9nTE3yEl.jpg',
         price: 40000
     },{
@@ -272,7 +273,7 @@ azBlog.controller('SaleCtrl', function($scope){
 
     },{
         name: 'Дрель BOSCH',
-        info: 'Бронь',
+        sold: true,
         img: 'http://i.imgur.com/h2pdNPwl.jpg',
         price: 40000
     },{
@@ -282,7 +283,7 @@ azBlog.controller('SaleCtrl', function($scope){
         price: 20000
     },{
         name: 'Шуруповерт BOSCH',
-        info: 'Бронь',
+        sold: true,
         img: 'http://i.imgur.com/IHp58jTl.jpg',
         origPrice: {price: 90000},
         price: 40000
