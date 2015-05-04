@@ -361,6 +361,11 @@ azBlog.controller('SaleCtrl', function($scope){
         hide: true,
         img: 'http://i.imgur.com/r8FpPvEl.jpg',
         price: 10000
+    },{
+        name: 'New Carens LPI 2.0',
+        info: '2011, Auto, LPG, 59000+km',
+        img: 'http://i.imgur.com/XK3h7JNl.jpg',
+        price: 12000000
     }];
 
     var sum = 0;
