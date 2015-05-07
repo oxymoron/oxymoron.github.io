@@ -7,7 +7,7 @@ var azBlog = angular.module('azBlog', []);
 
 azBlog.controller('SaleCtrl', function($scope){
 
-    $scope.order = 'price';
+    $scope.order = '-price';
     $scope.filter = 'available';
 
     $scope.setOrder = function (order) {
@@ -44,6 +44,7 @@ azBlog.controller('SaleCtrl', function($scope){
         price: 10000
     },{
         name: 'Кровать полуторка на ножках',
+        sold: true,
         img: 'http://i.imgur.com/Er9kkb9l.jpg',
         price: 40000
     },{
@@ -94,6 +95,7 @@ azBlog.controller('SaleCtrl', function($scope){
         price: 0
     },{
         name: 'Горшок детский',
+        sold: true,
         info: 'Бронь',
         img: 'http://i.imgur.com/7JKZRgzl.jpg',
         price: 10000
@@ -165,6 +167,7 @@ azBlog.controller('SaleCtrl', function($scope){
         price: 80000
     },{
         name: 'Медведь усталый',
+        sold: true,
         img: 'http://i.imgur.com/0aX4mgvl.jpg',
         price: 20000
     },{
@@ -217,6 +220,7 @@ azBlog.controller('SaleCtrl', function($scope){
         price: 0
     },{
         name: 'Походные стульчики',
+        sold: true,
         info: 'Бронь',
         img: 'http://i.imgur.com/OJYANibl.jpg',
         price: 10000
@@ -232,6 +236,7 @@ azBlog.controller('SaleCtrl', function($scope){
         price: 50000
     },{
         name: 'Игрушка-застежка "Жираф" (Монтессори)',
+        sold: true,
         img: 'http://i.imgur.com/D2wZeIhl.jpg',
         price: 10000
     },{
@@ -241,6 +246,7 @@ azBlog.controller('SaleCtrl', function($scope){
         price: 0
     },{
         name: 'Сортер',
+        sold: true,
         img: 'http://i.imgur.com/wVeU3S7l.jpg',
         price: 5000
     },{
@@ -319,6 +325,7 @@ azBlog.controller('SaleCtrl', function($scope){
         price: 30000
     },{
         name: 'Принтер лазерный',
+        sold: true,
         info: 'Проблема: печатает по 1 странице. Бронь',
         img: 'http://i.imgur.com/u2azRT9l.jpg',
         price: 10000
@@ -329,6 +336,7 @@ azBlog.controller('SaleCtrl', function($scope){
         price: 0
     },{
         name: 'Штатив',
+        sold: true,
         info: 'Бронь',
         img: 'http://i.imgur.com/HrzcnMYl.jpg',
         price: 10000
@@ -341,7 +349,7 @@ azBlog.controller('SaleCtrl', function($scope){
         name: 'Деревянный конструктор',
         info: 'Без книжек',
         img: 'http://i.imgur.com/xdjV8SRl.jpg',
-        price: 20000
+        price: 0
     },{
         name: 'Принтер лазерный ML-1660K',
         hide: true,
@@ -349,10 +357,11 @@ azBlog.controller('SaleCtrl', function($scope){
         price: 30000
     },{
         name: 'Детское и обувь на мальчика от 0 до 2,5 лет',
+        sold: true,
         info: 'По запросу. Цена договорная'
-
     },{
         name: 'Пальто мужское',
+        sold: true,
         info: 'Размер 110. Рост 180-185. 91% - шерсть, 9% - кашемир',
         img: 'http://i.imgur.com/YNoYZ8zl.jpg',
         price: 100000
