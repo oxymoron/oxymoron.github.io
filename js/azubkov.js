@@ -88,6 +88,7 @@ azBlog.controller('SaleCtrl', function($scope){
         price: 100000
     },{
         name: 'Подставка',
+        sold: true,
         info: 'Бронь',
         img: 'http://i.imgur.com/WKTnikbl.jpg',
         price: 0
@@ -186,6 +187,7 @@ azBlog.controller('SaleCtrl', function($scope){
     },{
         name: 'Насос',
         info: 'Бронь',
+        sold: true,
         img: 'http://i.imgur.com/dShsI0Dl.jpg',
         price: 0
     },{
@@ -248,6 +250,7 @@ azBlog.controller('SaleCtrl', function($scope){
         price: 0
     },{
         name: 'Игрушка лев',
+        sold: true,
         img: 'http://i.imgur.com/5CKazyhl.jpg',
         price: 0
     },{
@@ -257,6 +260,7 @@ azBlog.controller('SaleCtrl', function($scope){
         price: 0
     },{
         name: 'Чумачечая лошадь',
+        sold: true,
         info: 'Бронь',
         img: 'http://i.imgur.com/H1fqbyEl.jpg',
         price: 0
@@ -295,6 +299,7 @@ azBlog.controller('SaleCtrl', function($scope){
         price: 100000
     },{
         name: 'Писуар детский',
+        sold: true,
         info: 'Бронь',
         img: 'http://i.imgur.com/XC06WUzl.jpg',
         price: 0
