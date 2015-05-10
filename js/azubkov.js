@@ -300,6 +300,7 @@ azBlog.controller('SaleCtrl', function($scope){
         price: 40000
     },{
         name: 'Дартс',
+        sold: true,
         info: 'Оригинальный дартс с острова Гавайи',
         img: 'http://i.imgur.com/QDYUpTEl.jpg',
         origPrice: {price: 300000},
