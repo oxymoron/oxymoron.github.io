@@ -382,13 +382,13 @@ azBlog.controller('SaleCtrl', function($scope){
         name: 'New Carens LPI 2.0',
         info: '2011, Auto, LPG, 59000+km',
         img: 'http://i.imgur.com/XK3h7JNl.jpg',
-        price: 12000000
+        price: 11000000
     },{
         name: 'Телевизор Samsung 40" LN40B621',
         info: '2009 г. / DLNA',
         origPrice: {price: 1000000},
         img: 'http://i.imgur.com/jUcafeLl.jpg',
-        price: 200000
+        price: 150000
     },{
         name: 'Фен-щетка Philips',
         img: 'http://i.imgur.com/PQ79Hjnl.jpg',
