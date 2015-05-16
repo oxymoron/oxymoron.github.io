@@ -147,7 +147,7 @@ azBlog.controller('SaleCtrl', function($scope){
     },{
         name: 'Груша',
         img: 'http://i.imgur.com/V1tC7SLl.jpg',
-        price: 10000
+        price: 30000
     },{
         name: 'Кошачья вилла',
         sold: true,
