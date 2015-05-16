@@ -35,7 +35,7 @@ azBlog.controller('SaleCtrl', function($scope){
         price: 50000
     },{
         name: 'Газовая плита',
-        info: 'Дополнительно: формы для хлеба и противень. Можем помочь с доставкой по Сувону и окрестностям',
+        info: 'Дополнительно: формы для хлеба и противень.',
         img: 'http://i.imgur.com/lrHlNxsl.jpg',
         price: 80000
     },{
@@ -352,6 +352,7 @@ azBlog.controller('SaleCtrl', function($scope){
         name: 'Деревянный конструктор',
         info: 'Без книжек',
         img: 'http://i.imgur.com/xdjV8SRl.jpg',
+        sold: true,
         price: 0
     },{
         name: 'Принтер лазерный ML-1660K',

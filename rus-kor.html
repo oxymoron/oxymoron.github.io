@@ -1,0 +1,26 @@
+---
+layout: default
+---
+{% raw %}
+
+<div ng-controller="SaleCtrl">
+
+
+
+    <ul class="list-unstyled" ng-class="filter">
+        <li ng-repeat="item in items | orderBy: order" ng-hide="item.hide || item.sold">
+            [b]{{item.name}} - {{item.price | currency:"₩":0}}[/b]
+                <span ng-show="item.price == 0">(БЕСПЛАТНО)</span>
+            <br>
+            <span ng-show="item.info">{{item.info}}</span>
+            <br>
+            [img]{{item.img}}[/img]
+            <br><br>
+        </li>
+    </ul>
+
+    <!--<p>Итого: <strong>{{totalPrice | currency:"₩":0}}</strong></p>-->
+
+
+</div>
+{% endraw %}
