@@ -21,7 +21,7 @@ azBlog.controller('SaleCtrl', function($scope){
     $scope.items = [{
         name: 'Увлажнитель воздуха',
         img: 'http://i.imgur.com/tTDDd4Cl.jpg',
-        price: 10000
+        price: 0
     },{
         name: 'Отпариватель',
         sold: true,
@@ -37,11 +37,11 @@ azBlog.controller('SaleCtrl', function($scope){
         name: 'Газовая плита',
         info: 'Дополнительно: формы для хлеба и противень. Можем помочь с доставкой по Сувону и окрестностям',
         img: 'http://i.imgur.com/lrHlNxsl.jpg',
-        price: 100000
+        price: 80000
     },{
         name: 'Подставка для купания',
         img: 'http://i.imgur.com/7W4xxA9l.jpg',
-        price: 10000
+        price: 0
     },{
         name: 'Кровать полуторка на ножках',
         sold: true,
@@ -66,7 +66,7 @@ azBlog.controller('SaleCtrl', function($scope){
         name: 'Тумба',
         origPrice: {price: 100000},
         img: 'http://i.imgur.com/fr6F03wl.jpg',
-        price: 30000
+        price: 10000
     },{
         name: 'Детский комод',
         sold: true,
@@ -86,7 +86,7 @@ azBlog.controller('SaleCtrl', function($scope){
         name: 'Детская горка',
         info: 'На горке еще есть баскетбольное кольцо и в придачу мешок шариков.',
         img: 'http://i.imgur.com/KpE1At6l.jpg',
-        price: 100000
+        price: 80000
     },{
         name: 'Подставка',
         sold: true,
@@ -107,12 +107,13 @@ azBlog.controller('SaleCtrl', function($scope){
     },{
         name: 'Вентилятор Electrica (малый)',
         img: 'http://i.imgur.com/QNkPtDKl.jpg',
+        sold: true,
         price: 20000
     },{
         name: 'Домик камуфляжный',
         info: 'Кот попал случайно, в комплект не входит',
         img: 'http://i.imgur.com/Im4ZFYOl.jpg',
-        price: 5000
+        price: 0
     },{
         name: 'Барный стул',
         sold: true,
@@ -142,11 +143,11 @@ azBlog.controller('SaleCtrl', function($scope){
         name: 'Гантели (сменный вес)',
         info: '10 блинов на каждую. Каждый блин 0,55кг.',
         img: 'http://i.imgur.com/FZjQS1Nl.jpg',
-        price: 15000
+        price: 10000
     },{
         name: 'Груша',
         img: 'http://i.imgur.com/V1tC7SLl.jpg',
-        price: 20000
+        price: 10000
     },{
         name: 'Кошачья вилла',
         sold: true,
@@ -160,29 +161,29 @@ azBlog.controller('SaleCtrl', function($scope){
             comment: 'Цена на Gmarket',
             link: 'http://gmkt.kr/gY4r5s'
         },
-        price: 100000
+        price: 80000
     },{
         name: 'Пылесос Electrolux Supercyclone',
         img: 'http://i.imgur.com/gJkqQUcl.jpg',
-        price: 80000
+        price: 50000
     },{
         name: 'Медведь усталый',
         sold: true,
         img: 'http://i.imgur.com/0aX4mgvl.jpg',
         price: 20000
     },{
-        name: 'Велотренажер',
+        name: 'Велотренажер (торг уместен)',
         img: 'http://i.imgur.com/GIA2tQ0l.jpg',
-        price: 150000
+        price: 90000
     },{
         name: 'Палатка (4-5 местная)',
         info: "Размер: 210 x 210x 150",
         img: 'http://i.imgur.com/PDbO7ki.jpg',
-        price: 50000
+        price: 30000
     },{
         name: 'Теннисная ракетка',
         img: 'http://i.imgur.com/rKf9C2yl.jpg',
-        price: 5000
+        price: 0
     },{
         name: 'Гитара',
         info: 'Гитара аккустическая со звукоснимателем и приборчиком для настройки',
@@ -208,7 +209,7 @@ azBlog.controller('SaleCtrl', function($scope){
         name: 'Спасательный жилет',
         info: 'На 70-90 кг',
         img: 'http://i.imgur.com/5I3ylnYl.jpg',
-        price: 10000
+        price: 0
     },{
         name: 'Газовая плита (походная)',
         sold: true,
@@ -291,7 +292,7 @@ azBlog.controller('SaleCtrl', function($scope){
         name: 'Гладильная доска',
         img: 'http://i.imgur.com/MaqZDuxl.jpg',
         origPrice: {price: 40000},
-        price: 20000
+        price: 10000
     },{
         name: 'Шуруповерт BOSCH',
         sold: true,
@@ -324,7 +325,7 @@ azBlog.controller('SaleCtrl', function($scope){
         name: 'Массажер для ног',
         img: 'http://i.imgur.com/HPqObGOl.jpg',
         origPrice: {price: 100000},
-        price: 30000
+        price: 20000
     },{
         name: 'Принтер лазерный',
         sold: true,
@@ -371,6 +372,7 @@ azBlog.controller('SaleCtrl', function($scope){
         name: 'Пазлы "Транспорт" на 5, 6, 7 деталек',
         info: '10 - полных, 2 - без одной детали',
         img: 'http://i.imgur.com/v5phYBkl.jpg',
+        sold: true,
         price: 3000
     },{
         name: 'Струйный принтер и сканер HP Deskjet F2280',
@@ -386,13 +388,14 @@ azBlog.controller('SaleCtrl', function($scope){
     },{
         name: 'Телевизор Samsung 40" LN40B621',
         info: '2009 г. / DLNA',
+        sold: true,
         origPrice: {price: 1000000},
         img: 'http://i.imgur.com/jUcafeLl.jpg',
         price: 150000
     },{
         name: 'Фен-щетка Philips',
         img: 'http://i.imgur.com/PQ79Hjnl.jpg',
-        price: 30000
+        price: 20000
     }];
 
     var sum = 0;
