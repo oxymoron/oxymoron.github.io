@@ -37,6 +37,7 @@ azBlog.controller('SaleCtrl', function($scope){
         name: 'Газовая плита',
         info: 'Дополнительно: формы для хлеба и противень.',
         img: 'http://i.imgur.com/lrHlNxsl.jpg',
+        sold: true,
         price: 80000
     },{
         name: 'Подставка для купания',
@@ -131,6 +132,7 @@ azBlog.controller('SaleCtrl', function($scope){
         price: 0
     },{
         name: 'Елка новогодняя',
+        sold: true,
         info: 'Игрушки прилагаются (шары и мишура).',
         img: 'http://i.imgur.com/1mO2oWrl.jpg',
         price: 0
@@ -147,6 +149,7 @@ azBlog.controller('SaleCtrl', function($scope){
     },{
         name: 'Груша',
         img: 'http://i.imgur.com/V1tC7SLl.jpg',
+        sold: true,
         price: 30000
     },{
         name: 'Кошачья вилла',
@@ -161,6 +164,7 @@ azBlog.controller('SaleCtrl', function($scope){
             comment: 'Цена на Gmarket',
             link: 'http://gmkt.kr/gY4r5s'
         },
+        sold: true,
         price: 80000
     },{
         name: 'Пылесос Electrolux Supercyclone',
@@ -188,6 +192,7 @@ azBlog.controller('SaleCtrl', function($scope){
         name: 'Гитара',
         info: 'Гитара аккустическая со звукоснимателем и приборчиком для настройки',
         img: 'http://i.imgur.com/DWLq4U2l.jpg',
+        sold: true,
         price: 100000
     },{
         name: 'Насос',
