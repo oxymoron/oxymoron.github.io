@@ -67,6 +67,7 @@ azBlog.controller('SaleCtrl', function($scope){
         name: 'Тумба',
         origPrice: {price: 100000},
         img: 'http://i.imgur.com/fr6F03wl.jpg',
+        sold: true,
         price: 10000
     },{
         name: 'Детский комод',
@@ -183,6 +184,7 @@ azBlog.controller('SaleCtrl', function($scope){
         name: 'Палатка (4-5 местная)',
         info: "Размер: 210 x 210x 150",
         img: 'http://i.imgur.com/PDbO7ki.jpg',
+        sold: true,
         price: 30000
     },{
         name: 'Теннисная ракетка',
