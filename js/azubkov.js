@@ -114,6 +114,7 @@ azBlog.controller('SaleCtrl', function($scope){
         name: 'Домик камуфляжный',
         info: 'Кот попал случайно, в комплект не входит',
         img: 'http://i.imgur.com/Im4ZFYOl.jpg',
+        sold: true,
         price: 0
     },{
         name: 'Барный стул',
