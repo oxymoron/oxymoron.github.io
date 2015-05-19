@@ -55,9 +55,8 @@ azBlog.controller('SaleCtrl', function($scope){
         price: 20000
     },{
         name: 'Коляска Bebecar',
-        hide: true,
         img: 'http://i.imgur.com/UxBwqp7l.jpg',
-        price: 350000
+        price: 20000
     },{
         name: 'Детский велосипед',
         sold: true,
@@ -392,6 +391,7 @@ azBlog.controller('SaleCtrl', function($scope){
         name: 'New Carens LPI 2.0',
         info: '2011, Auto, LPG, 59000+km',
         img: 'http://i.imgur.com/XK3h7JNl.jpg',
+        sold: true,
         price: 11000000
     },{
         name: 'Телевизор Samsung 40" LN40B621',
@@ -404,6 +404,29 @@ azBlog.controller('SaleCtrl', function($scope){
         name: 'Фен-щетка Philips',
         img: 'http://i.imgur.com/PQ79Hjnl.jpg',
         price: 20000
+    },{
+        name: 'Автокресло',
+        img: 'http://i.imgur.com/K9hYOTel.jpg',
+        price: 10000
+    },{
+        name: 'Вешалка',
+        img: 'http://i.imgur.com/2BQj4Jcl.jpg',
+        price: 10000
+
+    },{
+        name: 'Книги',
+        info: "Просто раздаем",
+        img: 'http://i.imgur.com/XGc8QPLl.jpg',
+        price: 0
+    },{
+        name: 'Тумбочка-полка',
+        img: 'http://i.imgur.com/5W9OJqDl.jpg',
+        price: 5000
+    },{
+        name: 'Полка кабута из ИКЕИ (2 шт.)',
+        img: 'http://i.imgur.com/VXNFkItl.jpg',
+        price: 5000
+
     }];
 
     var sum = 0;
