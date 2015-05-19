@@ -56,7 +56,7 @@ azBlog.controller('SaleCtrl', function($scope){
     },{
         name: 'Коляска Bebecar',
         img: 'http://i.imgur.com/UxBwqp7l.jpg',
-        price: 20000
+        price: 200000
     },{
         name: 'Детский велосипед',
         sold: true,
