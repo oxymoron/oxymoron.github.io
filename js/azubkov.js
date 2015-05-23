@@ -147,6 +147,7 @@ azBlog.controller('SaleCtrl', function($scope){
         name: 'Гантели (сменный вес)',
         info: '10 блинов на каждую. Каждый блин 0,55кг.',
         img: 'http://i.imgur.com/FZjQS1Nl.jpg',
+        sold: true,
         price: 10000
     },{
         name: 'Груша',
@@ -181,6 +182,7 @@ azBlog.controller('SaleCtrl', function($scope){
     },{
         name: 'Велотренажер (торг уместен)',
         img: 'http://i.imgur.com/GIA2tQ0l.jpg',
+        sold: true,
         price: 90000
     },{
         name: 'Палатка (4-5 местная)',
@@ -301,6 +303,7 @@ azBlog.controller('SaleCtrl', function($scope){
     },{
         name: 'Гладильная доска',
         img: 'http://i.imgur.com/MaqZDuxl.jpg',
+        sold: true,
         origPrice: {price: 40000},
         price: 10000
     },{
@@ -412,6 +415,7 @@ azBlog.controller('SaleCtrl', function($scope){
     },{
         name: 'Автокресло',
         img: 'http://i.imgur.com/K9hYOTel.jpg',
+        sold: true,
         price: 10000
     },{
         name: 'Вешалка',
@@ -436,6 +440,7 @@ azBlog.controller('SaleCtrl', function($scope){
         price: 5000
     },{
         name: 'Переноска для ребенка (горный вариант)',
+        sold: true,
         img: 'http://i.imgur.com/HWG5O64l.jpg',
         price: 20000
 
