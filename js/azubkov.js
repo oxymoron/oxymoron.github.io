@@ -41,6 +41,7 @@ azBlog.controller('SaleCtrl', function($scope){
         price: 80000
     },{
         name: 'Подставка для купания',
+        sold: true,
         img: 'http://i.imgur.com/7W4xxA9l.jpg',
         price: 0
     },{
@@ -170,6 +171,7 @@ azBlog.controller('SaleCtrl', function($scope){
     },{
         name: 'Пылесос Electrolux Supercyclone',
         img: 'http://i.imgur.com/gJkqQUcl.jpg',
+        sold: true,
         price: 50000
     },{
         name: 'Медведь усталый',
@@ -215,6 +217,7 @@ azBlog.controller('SaleCtrl', function($scope){
     },{
         name: 'Спасательный жилет',
         info: 'На 70-90 кг',
+        sold: true,
         img: 'http://i.imgur.com/5I3ylnYl.jpg',
         price: 0
     },{
@@ -404,6 +407,7 @@ azBlog.controller('SaleCtrl', function($scope){
     },{
         name: 'Фен-щетка Philips',
         img: 'http://i.imgur.com/PQ79Hjnl.jpg',
+        sold: true,
         price: 20000
     },{
         name: 'Автокресло',
@@ -412,11 +416,13 @@ azBlog.controller('SaleCtrl', function($scope){
     },{
         name: 'Вешалка',
         img: 'http://i.imgur.com/2BQj4Jcl.jpg',
+        sold: true,
         price: 10000
 
     },{
         name: 'Книги',
         info: "Просто раздаем",
+        sold: true,
         img: 'http://i.imgur.com/XGc8QPLl.jpg',
         price: 0
     },{
@@ -425,8 +431,13 @@ azBlog.controller('SaleCtrl', function($scope){
         price: 5000
     },{
         name: 'Полка кабута из ИКЕИ (2 шт.)',
+        sold: true,
         img: 'http://i.imgur.com/VXNFkItl.jpg',
         price: 5000
+    },{
+        name: 'Переноска для ребенка (горный вариант)',
+        img: 'http://i.imgur.com/HWG5O64l.jpg',
+        price: 20000
 
     }];
 
