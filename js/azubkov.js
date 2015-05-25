@@ -21,6 +21,7 @@ azBlog.controller('SaleCtrl', function($scope){
     $scope.items = [{
         name: 'Увлажнитель воздуха',
         img: 'http://i.imgur.com/tTDDd4Cl.jpg',
+        sold: true,
         price: 0
     },{
         name: 'Отпариватель',
@@ -57,7 +58,7 @@ azBlog.controller('SaleCtrl', function($scope){
     },{
         name: 'Коляска Bebecar',
         img: 'http://i.imgur.com/UxBwqp7l.jpg',
-        price: 200000
+        price: 99000
     },{
         name: 'Детский велосипед',
         sold: true,
@@ -88,7 +89,7 @@ azBlog.controller('SaleCtrl', function($scope){
         name: 'Детская горка',
         info: 'На горке еще есть баскетбольное кольцо и в придачу мешок шариков.',
         img: 'http://i.imgur.com/KpE1At6l.jpg',
-        price: 80000
+        price: 49000
     },{
         name: 'Подставка',
         sold: true,
@@ -369,7 +370,6 @@ azBlog.controller('SaleCtrl', function($scope){
         price: 0
     },{
         name: 'Принтер лазерный ML-1660K',
-        hide: true,
         img: 'http://i.imgur.com/Byrpms9l.jpg',
         price: 20000
     },{
@@ -391,7 +391,6 @@ azBlog.controller('SaleCtrl', function($scope){
     },{
         name: 'Струйный принтер и сканер HP Deskjet F2280',
         info: 'Как принтер его лучше не использовать, но сканер вполне нормальный.',
-        hide: true,
         img: 'http://i.imgur.com/r8FpPvEl.jpg',
         price: 10000
     },{
@@ -451,7 +450,7 @@ azBlog.controller('SaleCtrl', function($scope){
     for (var i=0; i < $scope.items.length; i++){
         var item = $scope.items[i];
         sum += item.price;
-        if (!item.sold) availableNum++;
+        if (!item.sold && !item.hide) availableNum++;
     }
     $scope.availableNum = availableNum;
     $scope.totalPrice = sum;
