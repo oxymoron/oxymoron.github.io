@@ -8,7 +8,7 @@ var azBlog = angular.module('azBlog', []);
 azBlog.controller('SaleCtrl', function($scope){
 
     $scope.order = '-price';
-    $scope.filter = 'available';
+    $scope.filter = 'all';
 
     $scope.setOrder = function (order) {
         $scope.order = order;
