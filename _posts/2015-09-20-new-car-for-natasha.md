@@ -8,4 +8,4 @@ description: Купили новую Mazda 3 для Наташи
 для Наташи. Мне она, надо сказать, тоже нравится :)
 
 Встречайте, 2016 Mazda 3
-<img src="hhttp://i.imgur.com/amZ1lTxl.jpg" class="img-responsive img-thumbnail">
+<img src="http://i.imgur.com/amZ1lTxl.jpg" class="img-responsive img-thumbnail">
