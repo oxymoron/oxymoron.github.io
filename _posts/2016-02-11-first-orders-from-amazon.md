@@ -19,7 +19,7 @@ description: В первое время после переезда людям �
                <div class="media-left media-top">
                    <img class="media-object" src="http://images.amazon.com/images/P/{{item[2]}}.01.THUMBZZZ.jpg">
                </div>
-               <div class="media-body">
+               <div class="media-body small">
                  {{item[1]}}
                  <div class="price">{{item[3] | currency}}</div>
                </div>
