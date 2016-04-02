@@ -10,6 +10,7 @@ description: Предсказываем финансы (по ладони)
 прогноз на будущее. Сделать в excel это тоже можно, но программно все же проще.
 
 Ну, и...
+
 <img src="http://i.imgur.com/izcUe8H.jpg" class="img-responsive img-thumbnail">
 
 Получился небольшой проектик на 500 строчек.
