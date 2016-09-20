@@ -1,0 +1,16 @@
+<script>
+    $(function(){
+        $('#photos').append(photosets.{{page.photoset}}.map(function(url, index){
+            return (
+                '<div class="row">' +
+                    '<div class="col-lg-8 col-md-10">' +
+                        '<img src="' + url + '" class="img-responsive" style="padding: 0.5em;">' +
+                    '</div>' +
+                '</div>');
+        }));
+    });
+</script>
+
+<div id="photos" class="container">
+</div>
+
