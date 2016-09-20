@@ -4,6 +4,9 @@
 
 var photosets = {
 
+    '2016-09-19': [ 'https://farm9.staticflickr.com/8345/29768915906_6025aa66e5_b.jpg',
+        'https://farm9.staticflickr.com/8349/29768918456_22099477fe_b.jpg' ],
+
     california2016: [
         'https://farm9.staticflickr.com/8048/29689372151_f2b0420282_h.jpg',
         'https://farm9.staticflickr.com/8414/29689374431_9367fff2d8_h.jpg',

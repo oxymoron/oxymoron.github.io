@@ -1,6 +1,6 @@
 <script>
     $(function(){
-        $('.carousel-inner').append(photosets.{{page.photoset}}.map(function(url, index){
+        $('.carousel-inner').append(photosets['{{page.photoset}}'].map(function(url, index){
             return '<div class="item '+ (index === 0 ? 'active': '') + '"><img src="' + url + '"></div>';
         }));
     })
