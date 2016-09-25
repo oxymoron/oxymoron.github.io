@@ -13,7 +13,18 @@
 
     <link rel="author" href="https://plus.google.com/+AndreyZubkov">
     <link rel="shortcut icon" href="{{ site.url }}/favicon.ico">
-    <meta property="og:image" content="http://www.gravatar.com/avatar/ee40fe9346df29e1df3389fea7a1684b.png">
+
+    <!--Open graph-->
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="{{ page.url | prepend: site.url }}" />
+    <meta property="og:title" content="{{ page.title }}" />
+    {% if page.ogimage %}
+        <meta property="og:image" content="{{ page.ogimage }}">
+    {% else %}
+        <meta property="og:image" content="http://www.gravatar.com/avatar/ee40fe9346df29e1df3389fea7a1684b.png">
+    {% endif %}
+
+    <meta property="og:description" content="{{ page.description }}" />
 
     <title>{{ page.title }}</title>
 
