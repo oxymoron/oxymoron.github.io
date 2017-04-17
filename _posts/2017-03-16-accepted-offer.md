@@ -44,9 +44,6 @@ $570,000. Дали в офере $570,000 по итогам - 28 оферов в
 совсем немного выше нашей нынешней арендной платы (~$2,400).
 
 
-**18819 1st Ave SE, Bothell, WA 98012**
-<https://www.redfin.com/WA/Bothell/18819-1st-Ave-SE-98012/home/69351477>
-
 <div class="embed-responsive embed-responsive-16by9">
   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/4Z2a399iP4E"></iframe>
 </div>
