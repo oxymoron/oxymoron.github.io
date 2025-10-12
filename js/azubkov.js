@@ -1,6 +1,6 @@
 /*
  * Developer: Andrey Zubkov
- * Date: 2015-04-25
+ * Date: 2025-10-12
  */
 
 var azBlog = angular.module('azBlog', []);
